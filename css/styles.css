@@ -105,6 +105,14 @@ display: block;}
 .banner {
   background: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),url(../images/people-office\ 1\ \(1\).jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .banner-title {
@@ -117,6 +125,7 @@ display: block;}
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
+
 }
 .banner-button {
   border-radius: 4px;
@@ -226,6 +235,34 @@ display: block;}
   color: #434455;
   text-align: center;
 }
+
+.team-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.media-icons{
+  width: 40px;
+  height: 40px;
+}
+.media-icons-link {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.media-icons-link:hover,
+.media-icons-link:focus {
+  background-color: #404bbf;
+}
+.icons-image {
+  fill: #f4f4fd;}
+  
 /*PORTFOLIO*/
 .portfolio {
   margin-top: 0;
