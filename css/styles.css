@@ -190,6 +190,16 @@ display: block;}
   letter-spacing: 0.02em;
   color: #434455;
 }
+.tasks-list-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;}
+              
 /*TEAM*/
 .team {
   background-color: #f4f4fd;
@@ -245,12 +255,11 @@ display: block;}
   width: 40px;
   height: 40px;
 }
-.media-icons-link {
-  background-color: #4d5ae5;
+.media-icons-link {display: flex;
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #4d5ae5;
   width: 100%;
   height: 100%;
   padding: 12px;
@@ -262,7 +271,7 @@ display: block;}
 }
 .icons-image {
   fill: #f4f4fd;}
-  
+
 /*PORTFOLIO*/
 .portfolio {
   margin-top: 0;
@@ -318,6 +327,9 @@ display: block;}
   margin-bottom: 0;
   padding: 100px 0;
 }
+footer .container{display: flex;
+  align-items: baseline;}
+
 footer .logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -335,6 +347,27 @@ footer .logo {
   color: #f4f4fd;
   max-width: 264px;}
 
+.social-medien-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+ .medien-icons-link {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+footer .medien-icons-link:hover,
+footer .medien-icons-link:focus {
+  background-color: #31d0aa;
+}
+
+
   .logo-studio-footer {
   color: #f4f4fd;
 }  
+
