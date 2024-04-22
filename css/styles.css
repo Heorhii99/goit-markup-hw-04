@@ -51,7 +51,8 @@ img {
   color: #2e2f42;
   margin-right: 76px;}
 
-.header-nav-link {
+.header-nav-link {color: #404bbf;
+  position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -124,11 +125,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   padding: 188px 0;
   background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(1\).jpg);
+    rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1\ \(1\).jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   max-width: 1440px;
+  margin:auto;
 }
 
 .banner-title {
@@ -392,6 +394,9 @@ footer .logo {
 .footer-logo .footer-text {
   padding-bottom: 16px;
 }
+
+.logo-text{margin-right: 120px;}
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
